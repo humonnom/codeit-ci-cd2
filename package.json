@@ -5,7 +5,8 @@
     "build": "next build",
     "start": "next start",
     "test": "jest --coverage",
-    "test:ci": "jest --ci"
+    "test:ci": "jest --ci",
+    "lhci": "lhci autorun"
   },
   "dependencies": {
     "next": "latest",
@@ -14,6 +15,7 @@
     "server-only": "^0.0.1"
   },
   "devDependencies": {
+    "@lhci/cli": "^0.14.0",
     "@testing-library/jest-dom": "6.1.5",
     "@testing-library/react": "14.1.2",
     "@types/jest": "29.5.11",
